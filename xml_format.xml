@@ -1,0 +1,22 @@
+<app name="Macro Pack Demo" version="2.4.0" enabled="true">
+  <settings>
+    <maxItems>150</maxItems>
+    <ratio>0.75</ratio>
+    <owner/>
+  </settings>
+  <features>
+    <feature>tables</feature>
+    <feature>charts</feature>
+    <feature>code-blocks</feature>
+    <feature>diagrams</feature>
+  </features>
+  <users>
+    <user id="1" admin="true">Anna Kowalska</user>
+    <user id="2" admin="false">José García</user>
+    <user id="3" admin="false">李明</user>
+  </users>
+  <metadata>
+    <note><![CDATA[Znaki specjalne: < > & " ' oraz emoji 🚀]]></note>
+    <createdAt>2026-07-02T10:30:00Z</createdAt>
+  </metadata>
+</app>
