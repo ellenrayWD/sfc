@@ -1,0 +1,30 @@
+[app]
+name = "Macro Pack Demo"
+version = "2.4.0"
+enabled = true
+maxItems = 150
+ratio = 0.75
+
+[app.metadata]
+tags = []
+note = "Znaki specjalne: \" \\ oraz emoji 🚀"
+createdAt = 2026-07-02T10:30:00Z
+
+[limits]
+storageMb = 1024
+features = ["tables", "charts", "code-blocks", "diagrams"]
+
+[[limits.users]]
+id = 1
+name = "Anna Kowalska"
+admin = true
+
+[[limits.users]]
+id = 2
+name = "José García"
+admin = false
+
+[[limits.users]]
+id = 3
+name = "李明"
+admin = false
