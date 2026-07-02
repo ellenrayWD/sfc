@@ -1,0 +1,27 @@
+app:
+  name: Macro Pack Demo
+  version: "2.4.0"      # cudzysłów, żeby wersja była stringiem, nie liczbą
+  enabled: true
+  maxItems: 150
+  ratio: 0.75
+  owner: null
+
+features:
+  - tables
+  - charts
+  - code-blocks
+  - diagrams
+
+limits:
+  storageMb: 1024
+  users:
+    - { id: 1, name: Anna Kowalska, admin: true }
+    - { id: 2, name: José García, admin: false }
+    - { id: 3, name: 李明, admin: false }
+
+metadata:
+  tags: []
+  note: |
+    Tekst wieloliniowy.
+    Druga linia z Unicode 🚀 i znakami: : # -
+  createdAt: 2026-07-02T10:30:00Z
